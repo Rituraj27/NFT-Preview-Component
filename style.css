@@ -16,6 +16,10 @@
 body {
   font-family: "Outfit", sans-serif;
   background-color: var(--main-background-color);
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 .container {
@@ -28,6 +32,7 @@ body {
   padding: 20px;
   background-color: var(--box-background);
   border-radius: 25px;
+  box-shadow: 0 0 30px 5px rgba(4, 0, 19, 0.75);
 }
 .img-first {
   border-radius: 12px;
