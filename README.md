@@ -16,5 +16,5 @@ This challenge help me to improve my coding skills by building realistic project
 - CSS
 
 ## Author
-
+* Rituraj Hao
 ### [Twitter](https://twitter.com/rituraj_49)
