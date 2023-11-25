@@ -3,6 +3,7 @@
 ![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)
 
 ## Live Server
+https://rituraj27.github.io/NFT-Preview-Component/
 
 ## Welcome! 👋
 
@@ -16,4 +17,4 @@ This challenge help me to improve my coding skills by building realistic project
 
 ## Author
 
--[Twitter](https://twitter.com/rituraj_49)- Twitter
+### [Twitter](https://twitter.com/rituraj_49)
