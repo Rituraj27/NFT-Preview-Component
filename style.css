@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --main-background-color: hsl(217, 54%, 11%);
+  --box-background: hsl(216, 50%, 16%);
+  --dark-blue: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: var(--main-background-color);
+}
+
+.container {
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  margin: 2rem 2rem;
+  padding: 20px;
+  background-color: var(--box-background);
+  border-radius: 25px;
+}
+.img-first {
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+}
+.img-first img {
+  width: 100%;
+  display: block;
+}
+.img-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: hsla(178, 100%, 50%, 0.5);
+  display: none;
+}
+.img-overlay img {
+  position: absolute;
+  width: 50px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.img-first:hover .img-overlay {
+  display: block;
+}
+.text a {
+  color: var(--White);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px 0; /*top & bottom padding*/
+  display: inline-block; /*padding not work in a tag so we = inline block*/
+}
+.text a:hover {
+  color: var(--Cyan);
+}
+p {
+  color: var(--Soft-blue);
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.eth,
+.days {
+  display: flex;
+  align-items: center;
+}
+.eth p {
+  color: var(--Cyan);
+  font-weight: 600;
+  padding-left: 6px;
+}
+.days p {
+  padding-left: 6px;
+}
+hr {
+  border-color: var(--dark-blue);
+}
+.profile-author {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+.profile-author img {
+  height: 30px;
+  width: 30px;
+  border: 2px solid var(--White);
+  border-radius: 50%;
+}
+.profile-author p {
+  padding-left: 15px;
+}
+a.author {
+  color: var(--White);
+  text-decoration: none;
+  font-weight: 600;
+}
+a.author:hover {
+  color: var(--Cyan);
+}
